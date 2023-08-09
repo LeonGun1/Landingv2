@@ -1,0 +1,109 @@
+header{
+    padding: 25px 0px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+nav{
+    /* margin: 10px 0; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.logoname{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pagename{
+margin-left:.5rem ;
+font-weight: 800;
+}
+
+.menuitems{
+ display: flex;
+ justify-content:flex-start;
+}
+
+.menuitems>ul{
+    
+    padding:0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;  
+}
+
+.menuitems>ul>li{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ---------------Dropdown menu ----------- */
+
+.dropbtn {
+    background-color: transparent;
+    color: #252525;
+    font-size: 1.2rem;
+    border: none;
+  }
+  
+  .dropdownIndicator{
+    position: relative;
+    bottom: 0.3rem;
+    
+  }
+  
+  /* .dropdown {
+    position: relative;
+    display: inline-block;
+  } */
+  
+  .dropdown-content {
+    
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 5;
+    
+
+    /* ---------cSS glass effect------------ */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .dropdown-content a {
+    color: #252525;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;}
+
+    .dropbtn:hover{
+        color: brown;
+        /* cursor: pointer;  */
+    }
+    a:hover{
+        color: brown;
+        cursor: pointer;
+    }
+
+   
+  
+  

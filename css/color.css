@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #e74c3c;
+    --mainblack-color: #252525;
+    --mainbg-color:#ffe9d7;
+    --lightbg-color: #ffeee1;
+    --shadowBox-light-color:#fff3eb;
+    --gradient-color:-webkit-linear-gradient(-40deg, rgba(255,233,195, 1) 0%, #ff9394 100%);
+  }
+  
+
+  .lightbg{
+    background: #ffeee1;
+    min-height: 100vh;
+  }
+
+  .gradient{
+    background:-webkit-linear-gradient(-40deg, rgba(255,233,195, 1) 0%, #ff9394 100%);
+  }
+
+  .quotetext{
+    color: #252525;
+  }
+  
+  .quotename{
+    color: #252525;
+  }
