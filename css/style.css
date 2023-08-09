@@ -496,7 +496,7 @@ footer{
     display: none;
 }
 /* --------- Media query -------------- */
-@media (max-width: 750px) {
+@media (max-width: 550px) {
     body{
         overflow: scroll;
     }
