@@ -83,7 +83,7 @@ body{
 }
 
 .iAm{
-    width: 400px;
+    max-width: 400px;
     display: flex;
     gap: 1rem;
     font-size: 3rem;
@@ -168,7 +168,7 @@ body{
         line-height: 100%;
         text-overflow: ellipsis;
     }
-    .quotename{
+    .quotename, .quotename2{
         margin: 2rem;
         font-size: 2rem;
         text-align: center;
@@ -190,11 +190,6 @@ body{
         min-height: 100vh;
     }
 
-   
-
-    #animationContainer{
-        min-width: 150px;
-    }
 
     /* .shape{
         width: 250px;
@@ -487,4 +482,99 @@ footer{
 .illustration{
     max-width: 650px;
     margin-bottom: 6rem;
+}
+
+.avatar{
+    /* width: 30rem;  */
+    /* min-width: 150px; */
+    /* height: 350px; */
+    left: -30%;
+    overflow: hidden;
+}
+
+.hide{
+    display: none;
+}
+/* --------- Media query -------------- */
+@media (max-width: 550px) {
+    body{
+        overflow: scroll;
+    }
+    
+    .content2, .content{
+        display: block;
+        margin: auto;
+
+
+           
+            gap: 0px; 
+            justify-content: center;
+            align-content: center;
+        
+        
+    }
+
+  .titles{
+    border-bottom: none;
+  }
+  
+  .shadowBoxPx, .shadowBox{
+    max-width: 100%;
+  }
+  .unitC{
+    max-width: 90%;
+
+  }
+  .quotetext{
+    padding: 1rem;
+    font-size: 3rem;
+    line-height: 90%;
+  }
+  .paddingtop{
+    padding-top: 2rem;
+  }
+  .avatar{
+    margin: auto;
+    
+
+}
+
+.quotetext{
+    padding-top: 5rem;
+}
+.quotename .quotename2{
+    padding-bottom: 5rem;
+} 
+
+.hello>h2{
+    text-align: center;
+    margin-top: 2rem; 
+}
+.iAm{
+    display: block;
+    /* margin: auto; */
+    /* overflow: hidden; */
+    text-align: center;
+}
+.hide{
+    display: block;
+    font-weight: 800;
+    /* max-width: 30%; */
+}
+.words>span{
+    display: none;
+}
+.weird{
+    margin: auto;
+    /* overflow: hidden; */
+    max-width: 100%;
+}
+
+#intr{
+    margin: auto;
+}
+
+ul>li>h3{
+overflow: hidden;
+}
 }
