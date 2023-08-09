@@ -104,6 +104,23 @@ font-weight: 800;
         cursor: pointer;
     }
 
+
+    @media (max-width: 550px) {
+
+      nav{
+      display: block;
+  
+    }
+    .logoname{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    .menuitems{
+      display: flex;
+      justify-content: center;
+    }
+  }
    
   
   
